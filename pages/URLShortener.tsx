@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link as LinkIcon, BarChart, Globe, Zap, MousePointer, Shield } from 'lucide-react';
-import DemoForm from '../components/DemoForm';
-import FooterForm from '../components/FooterForm';
+import DemoForm from '../components/DemoForm.tsx';
+import FooterForm from '../components/FooterForm.tsx';
 
 const URLShortener: React.FC = () => {
   return (

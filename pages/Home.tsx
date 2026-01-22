@@ -2,7 +2,7 @@
 import React from 'react';
 import { ShieldCheck, Zap, BarChart3, Cloud, Factory, Truck, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import FooterForm from '../components/FooterForm';
+import FooterForm from '../components/FooterForm.tsx';
 
 const Home: React.FC = () => {
   return (

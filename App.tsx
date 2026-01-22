@@ -1,12 +1,12 @@
 
 import React, { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import FestivalEmailTool from './pages/FestivalEmailTool';
-import URLShortener from './pages/URLShortener';
-import Disclaimer from './pages/Disclaimer';
+import Navbar from './components/Navbar.tsx';
+import Home from './pages/Home.tsx';
+import Services from './pages/Services.tsx';
+import FestivalEmailTool from './pages/FestivalEmailTool.tsx';
+import URLShortener from './pages/URLShortener.tsx';
+import Disclaimer from './pages/Disclaimer.tsx';
 import { ChevronUp } from 'lucide-react';
 
 const ScrollToTop = () => {
@@ -19,7 +19,6 @@ const ScrollToTop = () => {
 
 const Footer: React.FC = () => {
   const location = useLocation();
-  const isDisclaimer = location.pathname === '/disclaimer';
 
   return (
     <footer className="bg-slate-900 text-slate-400 py-12">

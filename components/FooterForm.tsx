@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Send, CheckCircle2 } from 'lucide-react';
-import { SERVICES_LIST } from '../types';
+import { SERVICES_LIST } from '../types.ts';
 
 const FooterForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -23,7 +23,6 @@ const FooterForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, this would send an email via a backend
     console.log('Sending hire me request:', formData);
     setIsSubmitted(true);
   };

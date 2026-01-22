@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Target, UserCheck, Layers, Mail, Layout, ArrowRight } from 'lucide-react';
-import FooterForm from '../components/FooterForm';
+import FooterForm from '../components/FooterForm.tsx';
 
 const Services: React.FC = () => {
   const services = [

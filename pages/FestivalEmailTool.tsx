@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Mail, CheckCircle, Image as ImageIcon, Link as LinkIcon, Send, Users, Shield } from 'lucide-react';
-import DemoForm from '../components/DemoForm';
-import FooterForm from '../components/FooterForm';
+import DemoForm from '../components/DemoForm.tsx';
+import FooterForm from '../components/FooterForm.tsx';
 
 const FestivalEmailTool: React.FC = () => {
   const features = [
@@ -63,7 +63,6 @@ const FestivalEmailTool: React.FC = () => {
         </div>
       </div>
 
-      {/* Pricing/Value Section */}
       <div className="bg-slate-900 text-white py-24">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-8">Ready to Own This Script?</h2>
